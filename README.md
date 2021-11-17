@@ -16,7 +16,7 @@ Vous trouverez ici au fur et à mesure le code sources des TD réalisés durant 
 ### Procédure de compilation et exécution
 depuis le répertoire `src`
 ```
-javac fr/epsi/Programme.java
-javac fr/epsi/util/Application.java
+javac fr/epsi/Application.java
+javac fr/epsi/util/StringUtil.java
 java fr.epsi.Programme MaChaineDeCaractères
 ```
