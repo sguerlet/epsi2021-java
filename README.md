@@ -18,5 +18,5 @@ depuis le répertoire `src`
 ```
 javac fr/epsi/Application.java
 javac fr/epsi/util/StringUtil.java
-java fr.epsi.Programme MaChaineDeCaractères
+java fr.epsi.Application MaChaineDeCaractères
 ```
