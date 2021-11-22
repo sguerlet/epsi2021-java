@@ -3,7 +3,7 @@
 Vous trouverez ici au fur et à mesure le code sources des TD réalisés durant le cours
 
 ## Insertion de caractères dans une chaine
-### Objectifs :
+### Objectifs
 - créer une classe principale, point d'entrée du programme
 - créer une seconde classe utilitaire
 - instancier et appeler cette dernière classe
@@ -20,3 +20,12 @@ javac fr/epsi/Application.java
 javac fr/epsi/util/StringUtil.java
 java fr.epsi.Application MaChaineDeCaractères
 ```
+
+## Polygones
+
+### Objectifs
+- manipuler les apports du polymorphisme (utilisation d'un objet en tant que sa classe parente ou les interfaces qu'il implémente)
+- saisir le concept de "contrat de service" qu'une interface apporte (une classe qui implémente une interface DOIT implémenter l'ensemble des méthodes définies dans l'interface)
+
+### Les classes concernées
+- L'ensemble du package [fr.epsi.poly](/src/fr/epsi/poly)
