@@ -11,6 +11,10 @@ public class Test {
         Carre carre = new Carre(4);
         Rectangle rectangle = new Rectangle(5,3);
         
+        // L'objet 'carre' est tout à la fois 
+        // - une instance de Carre (sa propre classe)
+        // - une instance de Quadrilatere (sa classe parente)
+        // - une instance de Polygone (l'interface qu'il implémet via sa classe parente)
         System.out.println("Test de type de classe");
         System.out.println("carre instanceof Carre : " + (carre instanceof Carre));
         System.out.println("carre instanceof Quadrilatere : " + (carre instanceof Quadrilatere));

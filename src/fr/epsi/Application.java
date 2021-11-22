@@ -7,7 +7,7 @@ public class Application {
     
         if (args.length == 0)
             throw new IllegalArgumentException("Un paramètre est attendu pour exécuter le programme");
-        // On lit la chaine de caractère à partir du premier paramètre
+        // On lit la chaine de caractères à partir du premier paramètre
         String origine = args[0];
 
         System.out.println("Chaine de caractères lue depuis la ligne de commande");
