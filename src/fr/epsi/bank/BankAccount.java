@@ -40,8 +40,14 @@ public class BankAccount {
     }
 
     // Cette méthode retire simplement la somme du solde
-    public void retrait(double somme) {
-        solde -= somme;
+    // Une vérification du solde est réalisé avant le retrait effectif,
+    // une exception est levée le cas échéant
+    public void retrait(double somme) throws BankAccountException {
+        if (solde > somme) { 
+            solde -= somme;
+        } else {
+            throw new BankAccountException("L'opération de retrait n'est pas réalisable : solde insuffisant");
+        }
     }
 
 }
