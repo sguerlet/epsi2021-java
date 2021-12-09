@@ -34,7 +34,7 @@ java fr.epsi.Application MaChaineDeCaractères
 
 ### Objectifs
 - Appliquer le principe objet de l'**encapsulation** pour verrouiller le fonctionnement interne d'une classe et s'assurer que ses instances seront correctement utilisées, sans possibilité de s'écarter volontairement du fonctionnement désiré
-- Gestion des exception avec la méthode [BankAccount.retrait](https://github.com/sguerlet/epsi2021-java/blob/d635ab1e2f8f23c5f358405d7516cac299c74a64/src/fr/epsi/bank/BankAccount.java#L45) qui lève une exception de type [BankAccountException](/src/fr/epsi/bank/BankAccountException.java) lors d'une tentative de retrait supérieur au solde
+- Gestion des **exceptions** avec la méthode [BankAccount.retrait](https://github.com/sguerlet/epsi2021-java/blob/d635ab1e2f8f23c5f358405d7516cac299c74a64/src/fr/epsi/bank/BankAccount.java#L45) qui lève une exception de type [BankAccountException](/src/fr/epsi/bank/BankAccountException.java) lors d'une tentative de retrait supérieur au solde
 
 ### Les classes concernées
 - L'ensemble du package [fr.epsi.bank](/src/fr/epsi/bank)
@@ -42,7 +42,7 @@ java fr.epsi.Application MaChaineDeCaractères
 ## Élèves et notes
 
 ### Objectifs
-- Lecture d'un fichier, avec les nouvelles méthodes de haut niveau de maniupalition des fichiers de la classe [java.nio.file.Files](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/nio/file/Files.html#readAllLines(java.nio.file.Path))
+- Lecture d'un fichier, avec les méthodes de haut niveau de **manipulation des fichiers** de la classe [java.nio.file.Files](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/nio/file/Files.html#readAllLines(java.nio.file.Path)) depuis la version 7 de Java
 - Avoir une approche procédurale dans un premier temps, puis proposer une approche davantage orientée objet
 
 ### Les classes concernées
